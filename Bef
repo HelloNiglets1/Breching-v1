@@ -1,0 +1,81 @@
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+local Window = Rayfield:CreateWindow({
+   Name = "Breaching V1",
+   LoadingTitle = "Universal",
+   LoadingSubtitle = "by Jake",
+   ConfigurationSaving = {
+      Enabled = true,
+      FolderName = nil, -- Create a custom folder for your hub/game
+      FileName = "Big Hub"
+   },
+   Discord = {
+
+      Enabled = false,
+      Invite = "noinvitelink", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD
+      RememberJoins = true -- Set this to false to make them join the discord every time they load it up
+   },
+   KeySystem = true, -- Set this to true to use our key system
+   KeySettings = {
+      Title = "Enter Your Key",
+      Subtitle = "Key System",
+      Note = "No method of obtaining the key is provided",
+      FileName = "Key", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
+      SaveKey = false, -- The user's key will be saved, but if you change the key, they will be unable to use your script
+      GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+      Key = {"Karll_Badjaw"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","hi")
+   }
+})
+
+local PlayerTab = Window:CreateTab("Player", 4483362458) -- Title, Image
+
+local Button = PlayerTab:CreateButton({
+   Name = "--Credits Made By Apolto Jake--",
+   Callback = function()
+    end,
+})
+
+--Credits made by jake mathew apolto
+
+local Button = PlayerTab:CreateButton({
+   Name = "Infinite yield(Bugged Dont Use)",
+   Callback = function()                
+ loadstring(game:HttpGet("https://scriptblox.com/raw/Infinite-Yield_500"))()
+   end,
+})
+
+local Button = PlayerTab:CreateButton({
+   Name = "Dark Dex(Bugged dont use)",
+   Callback = function()
+     loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Dark-Dex-7359"))()
+   end,
+})
+
+local PlayerTab = Window:CreateTab("BloxFruit", 4483362458) -- Title, Image
+
+local Button = PlayerTab:CreateButton({
+   Name = "Sonic Hub(No Key)",
+   Callback = function()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/NickelHUBB/SonicTuru/main/Protected-25.lua"))()
+   end,
+})
+
+local Button = PlayerTab:CreateButton({
+   Name = "Hoho hub(Key System)",
+   Callback = function()
+  loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+   end,
+})
+
+local Button = PlayerTab:CreateButton({
+   Name = "Ganteng Hub(No Key)",
+   Callback = function()
+    loadstring(game:HttpGet("https://isnahamzahpastebin.tech/v1/gantenghubv1_012.lua"))()
+   end,
+})
+
+local Button = PlayerTab:CreateButton({
+   Name = "Ratio Hub(No Key)",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Efe0626/VoidHub/main/Script"))() 
+    end,
+})
