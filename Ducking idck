@@ -1,0 +1,315 @@
+local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
+local Window = Rayfield:CreateWindow({
+	Name = "CRAZY HAX BY JAKE",
+	LoadingTitle = "MADE BY JAKE",
+	LoadingSubtitle = "NOT FOR SKIDDERS",
+	KeySystem = false,
+})
+local WeaponTab = Window:CreateTab("Weapon", 4483362458)
+
+local Weapon2Tab = Window:CreateTab("Weapon2", 4483362458)
+
+local GunTab = Window:CreateTab("Gun", 4483362458)
+
+
+local ThingTab = Window:CreateTab("Thing", 4483362458)
+
+local Section = WeaponTab:CreateSection("Sword")
+
+local SupportTab = Window:CreateTab("Support", 4483362458)
+
+local button = GunTab:CreateButton({
+	Name = "Flamethrower",
+	Callback = function()
+    game:GetService("ReplicatedStorage").events.guiEvent:FireServer("changeClass","flamethrower","none")
+	end,
+})
+
+local button = WeaponTab:CreateButton({
+	Name = "Katana",
+	Callback = function()
+    game:GetService("ReplicatedStorage").events.guiEvent:FireServer("changeClass","katana","none")
+	end,
+})
+
+local button = WeaponTab:CreateButton({
+	Name = "NightStick",
+	Callback = function()
+    game:GetService("ReplicatedStorage").events.guiEvent:FireServer("changeClass","nightstick","none")
+	end,
+})
+
+local button = ThingTab:CreateButton({
+	Name = "taser",
+	Callback = function()
+    game:GetService("ReplicatedStorage").events.guiEvent:FireServer("changeClass","taser","none")
+	end,
+})
+
+local button = WeaponTab:CreateButton({
+	Name = "Guitar",
+	Callback = function()
+    game:GetService("ReplicatedStorage").events.guiEvent:FireServer("changeClass","guitar","none")
+	end,
+})
+
+local button = WeaponTab:CreateButton({
+	Name = "Amongus Pillow",
+	Callback = function()
+    game:GetService("ReplicatedStorage").events.guiEvent:FireServer("changeClass","pillow","none")
+	end,
+})
+
+local button = WeaponTab:CreateButton({
+	Name = "Wrench",
+	Callback = function()
+    game:GetService("ReplicatedStorage").events.guiEvent:FireServer("changeClass","wrench","none")
+	end,
+})
+
+local button = WeaponTab:CreateButton({
+	Name = "Sabres",
+	Callback = function()
+    game:GetService("ReplicatedStorage").events.guiEvent:FireServer("changeClass","sabres","none")
+	end,
+})
+
+local button = GunTab:CreateButton({
+	Name = "mp5a3",
+	Callback = function()
+    game:GetService("ReplicatedStorage").events.guiEvent:FireServer("changeClass","mp5a3","none")
+	end,
+})
+
+local button = GunTab:CreateButton({
+	Name = "Minigun",
+	Callback = function()
+    game:GetService("ReplicatedStorage").events.guiEvent:FireServer("changeClass","minigun","none")
+	end,
+})
+
+local button = GunTab:CreateButton({
+	Name = "Sniper",
+	Callback = function()
+    game:GetService("ReplicatedStorage").events.guiEvent:FireServer("changeClass","sniper","none")
+	end,
+})
+
+local button = WeaponTab:CreateButton({
+	Name = "Cheetos",
+	Callback = function()
+    game:GetService("ReplicatedStorage").events.guiEvent:FireServer("changeClass","cheetos","none")
+	end,
+})
+
+local button = WeaponTab:CreateButton({
+	Name = "Pipe",
+	Callback = function()
+    game:GetService("ReplicatedStorage").events.guiEvent:FireServer("changeClass","pipe","none")
+	end,
+})
+
+local button = WeaponTab:CreateButton({
+	Name = "Trenchaxe",
+	Callback = function()
+    game:GetService("ReplicatedStorage").events.guiEvent:FireServer("changeClass","trenchaxe","none")
+	end,
+})
+
+local button = WeaponTab:CreateButton({
+	Name = "Pickaxe And Spade",
+	Callback = function()
+    game:GetService("ReplicatedStorage").events.guiEvent:FireServer("changeClass","pickandspade","none")
+	end,
+})
+
+local button = ThingTab:CreateButton({
+	Name = "Rocket Launcher",
+	Callback = function()
+    game:GetService("ReplicatedStorage").events.guiEvent:FireServer("changeClass","rocket launcher","none")
+	end,
+})
+
+local button = WeaponTab:CreateButton({
+	Name = "Candy",
+	Callback = function()
+    game:GetService("ReplicatedStorage").events.guiEvent:FireServer("changeClass","candy","none")
+	end,
+})
+
+local button = WeaponTab:CreateButton({
+	Name = "Fists",
+	Callback = function()
+    game:GetService("ReplicatedStorage").events.guiEvent:FireServer("changeClass","fists","none")
+	end,
+})
+
+local button = GunTab:CreateButton({
+	Name = "Old deagle",
+	Callback = function()
+    game:GetService("ReplicatedStorage").events.guiEvent:FireServer("changeClass","olddeag","none")
+	end,
+})
+
+local button = GunTab:CreateButton({
+	Name = "Pistols",
+	Callback = function()
+    game:GetService("ReplicatedStorage").events.guiEvent:FireServer("changeClass","pistols","none")
+	end,
+})
+
+local button = GunTab:CreateButton({
+	Name = "Shotgun",
+	Callback = function()
+    game:GetService("ReplicatedStorage").events.guiEvent:FireServer("changeClass","shotgun","none")
+	end,
+})
+
+local button = WeaponTab:CreateButton({
+	Name = "Kick",
+	Callback = function()
+    game:GetService("ReplicatedStorage").events.guiEvent:FireServer("changeClass","kick","none")
+	end,
+})
+
+local button = ThingTab:CreateButton({
+	Name = "Enderpearl",
+	Callback = function()
+    game:GetService("ReplicatedStorage").events.guiEvent:FireServer("changeClass","enderpearl","none")
+	end,
+})
+
+local button = WeaponTab:CreateButton({
+	Name = "Machete",
+	Callback = function()
+    game:GetService("ReplicatedStorage").events.guiEvent:FireServer("changeClass","machete","none")
+	end,
+})
+
+local button = ThingTab:CreateButton({
+	Name = "Tele orb",
+	Callback = function()
+    game:GetService("ReplicatedStorage").events.guiEvent:FireServer("changeClass","tele orb","none")
+	end,
+})
+
+local button = WeaponTab:CreateButton({
+	Name = "Crowbar",
+	Callback = function()
+    game:GetService("ReplicatedStorage").events.guiEvent:FireServer("changeClass","crowbar","none")
+	end,
+})
+
+local button = WeaponTab:CreateButton({
+	Name = "Golf club",
+	Callback = function()
+    game:GetService("ReplicatedStorage").events.guiEvent:FireServer("changeClass","golf club","none")
+	end,
+})
+
+local button = ThingTab:CreateButton({
+	Name = "Boombox",
+	Callback = function()
+    game:GetService("ReplicatedStorage").events.guiEvent:FireServer("changeClass","Boombox","none")
+	end,
+})
+
+local button = WeaponTab:CreateButton({
+	Name = "Mega axe",
+	Callback = function()
+    game:GetService("ReplicatedStorage").events.guiEvent:FireServer("changeClass","stopaxe","none")
+	end,
+})
+
+local button = WeaponTab:CreateButton({
+	Name = "Axe",
+	Callback = function()
+    game:GetService("ReplicatedStorage").events.guiEvent:FireServer("changeClass","axe","none")
+	end,
+})
+
+local button = WeaponTab:CreateButton({
+	Name = "Bat",
+	Callback = function()
+    game:GetService("ReplicatedStorage").events.guiEvent:FireServer("changeClass","bat","none")
+	end,
+})
+
+local button = GunTab:CreateButton({
+	Name = "Glock",
+	Callback = function()
+    game:GetService("ReplicatedStorage").events.guiEvent:FireServer("changeClass","glock","none")
+	end,
+})
+
+local button = WeaponTab:CreateButton({
+	Name = "Spiked Club",
+	Callback = function()
+    game:GetService("ReplicatedStorage").events.guiEvent:FireServer("changeClass","spikedclub","none")
+	end,
+})
+
+local button = WeaponTab:CreateButton({
+	Name = "Cleavers",
+	Callback = function()
+    game:GetService("ReplicatedStorage").events.guiEvent:FireServer("changeClass","cleavers","none")
+	end,
+})
+
+local button = WeaponTab:CreateButton({
+	Name = "Cricket bat",
+	Callback = function()
+    game:GetService("ReplicatedStorage").events.guiEvent:FireServer("changeClass","cricketbat","none")
+	end,
+})
+
+local button = WeaponTab:CreateButton({
+	Name = "Dagger",
+	Callback = function()
+    game:GetService("ReplicatedStorage").events.guiEvent:FireServer("changeClass","dagger","none")
+	end,
+})
+
+local button = Weapon2Tab:CreateButton({
+	Name = "Mace",
+	Callback = function()
+    game:GetService("ReplicatedStorage").events.guiEvent:FireServer("changeClass","mace","none")
+	end,
+})
+
+local button = Weapon2Tab:CreateButton({
+	Name = "Knife",
+	Callback = function()
+    game:GetService("ReplicatedStorage").events.guiEvent:FireServer("changeClass","knife","none")
+	end,
+})
+
+local button = Weapon2Tab:CreateButton({
+	Name = "Claws",
+	Callback = function()
+    game:GetService("ReplicatedStorage").events.guiEvent:FireServer("changeClass","claws","none")
+	end,
+})
+
+local button = Weapon2Tab:CreateButton({
+	Name = "Turkey",
+	Callback = function()
+    game:GetService("ReplicatedStorage").events.guiEvent:FireServer("changeClass","turkey","none")
+	end,
+})
+
+local button = Weapon2Tab:CreateButton({
+	Name = "Candy cane",
+	Callback = function()
+    game:GetService("ReplicatedStorage").events.guiEvent:FireServer("changeClass","candycane","none")
+	end,
+})
+
+local button = SupportTab:CreateButton({
+   Name = "Keyboard",
+   CurrentValue = false,
+   Flag = "Toggle1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+   Callback = function(Value)
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+   end,
+})
